@@ -4,4 +4,4 @@ File.open("prefixes.txt", "r") do |f|
     PREFIXES << line.strip if line.length > 0
   end
 end
-PREFIXES = PREFIXES.uniq
+PREFIXES.uniq!
