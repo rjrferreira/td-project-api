@@ -29,3 +29,15 @@ Project is available on "https://td-project-rodrigo.herokuapp.com/"
 ```
 $ curl -d '["+4439877"]' "https://td-project-rodrigo.herokuapp.com/aggregate"
 ```
+
+### Deploy project on another instance (url)
+
+In the project directory:
+
+```
+git remote add heroku https://git.heroku.com/{NAME}.git
+git push heroku main
+```
+
+The "NAME" correspods to the Heroku git URL. You can find this file on the Settings tab of your heroku project.
+
