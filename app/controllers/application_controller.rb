@@ -4,13 +4,6 @@ class ApplicationController < ActionController::API
 
   include AggregationHelper
 
-  #README
-
-  # Tests
-
-  #https://td-project-rodrigo.herokuapp.com/
-  #./validate.sh https://td-project-rodrigo.herokuapp.com/aggregate
-
   def aggregate
     result = {}
 
