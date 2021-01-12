@@ -30,7 +30,7 @@ Project is available on "https://td-project-rodrigo.herokuapp.com/"
 $ curl -d '["+4439877"]' "https://td-project-rodrigo.herokuapp.com/aggregate"
 ```
 
-### Deploy project on another instance (url)
+### Deploy project in another instance (url)
 
 In the project directory:
 
